@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-01T16:53:31 IST" name="Default suite" finished-at="2024-04-01T16:53:56 IST" duration-ms="25055">
+  <suite started-at="2024-04-02T12:36:34 IST" name="Default suite" finished-at="2024-04-02T12:36:52 IST" duration-ms="17626">
     <groups>
     </groups>
-    <test started-at="2024-04-01T16:53:31 IST" name="Default test" finished-at="2024-04-01T16:53:56 IST" duration-ms="25055">
+    <test started-at="2024-04-02T12:36:34 IST" name="Default test" finished-at="2024-04-02T12:36:52 IST" duration-ms="17626">
       <class name="Databinding.volza.com.Global_Trade_data_Test">
-        <test-method signature="lunchurl()[pri:0, instance:Databinding.volza.com.Global_Trade_data_Test@66ea1466]" started-at="2024-04-01T16:53:31 IST" name="lunchurl" finished-at="2024-04-01T16:53:56 IST" duration-ms="25027" status="PASS">
+        <test-method signature="lunchurl()[pri:1, instance:Databinding.volza.com.Global_Trade_data_Test@1601e47]" started-at="2024-04-02T12:36:34 IST" name="lunchurl" finished-at="2024-04-02T12:36:51 IST" duration-ms="16636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchurl -->
+        <test-method signature="bblink()[pri:2, instance:Databinding.volza.com.Global_Trade_data_Test@1601e47]" started-at="2024-04-02T12:36:51 IST" name="bblink" finished-at="2024-04-02T12:36:52 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bblink -->
       </class> <!-- Databinding.volza.com.Global_Trade_data_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

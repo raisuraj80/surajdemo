@@ -1,5 +1,8 @@
 package Databinding.volza.com;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -53,6 +56,37 @@ public class Global_Trade_data extends BaseLibary
 			System.out.println("Expection is lunchurl" + e);
 			}
 	}
+		
+		public void bblink()
+		{
+		
+			try 
+			
+			{
+			
+		List<WebElement> webelementsList = driver.findElements(By.tagName("a"));
+		int linknumber = webelementsList.size();
+		System.out.println("Links on this page " +linknumber);
+		
+		for(WebElement link : webelementsList)
+		{
+			System.out.println(link.getText());
+			
+		}
+		
+
+		
+		} 
+		
+		catch (Exception e)
+		
+		
+		{
+			System.out.println("Issue in bblink " + e);
+		}	
+			
+		}
+	
 		
 		
 
